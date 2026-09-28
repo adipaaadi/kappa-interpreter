@@ -1,7 +1,5 @@
 # Kappa Language – Project README
 **Author:** Adi Dasgupta  
-**Student Number:** 103552167  
-**Course:** CS-C2170 Programming Languages (MEPL)  
 **Project:** Small Functional Language Implementation — *Kappa*
 
 ---
@@ -25,6 +23,10 @@ For a full explanation of language features and examples, see:
 - **EXERCISES.md**
 
 ---
+
+## Why this exists
+
+Built as the final project for CS-C2170 Programming Languages at Aalto University. The goal was to implement a complete language from scratch — lexer, parser, type checker, evaluator, and REPL — with no parser generators or external language libraries. Everything is hand-written Python.
 
 ## 2. Project Structure
 
@@ -83,6 +85,5 @@ Additional detailed documentation can be found in:
 
 ## 5. Author
 **Adi Dasgupta**  
-Student No. **103552167**
 
 ---
