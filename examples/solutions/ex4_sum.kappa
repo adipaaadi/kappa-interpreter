@@ -1,0 +1,17 @@
+# SOLUTION 4 — Sum type handling (construct and match)
+# Construct an inl/inr pair and match them.
+
+let s1 = inl 10
+match s1 {
+  inl x -> x + 1
+  inr y -> 0
+}
+
+let s2 = inr true
+match s2 {
+  inl x -> x + 1
+  inr y -> if y then 1 else 0
+}
+
+# failing example (uncomment to test a type error):
+# match 5 { inl x -> x inr y -> y }

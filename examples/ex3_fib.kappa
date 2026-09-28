@@ -1,0 +1,9 @@
+# EXERCISE 3 — Fibonacci (recursive)
+# Task: write a function `fib : Int -> Int` using recursion (fix).
+# Example: fib 6  # => 8
+#
+# Failing example: fib true  # should be a type error
+
+# Your implementation below (replace this placeholder)
+# let fib = ...
+# fib 6

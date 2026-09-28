@@ -1,0 +1,4 @@
+# SOLUTION 5 — Import & use examples/lib.kappa (list of results)
+import "examples/lib.kappa"
+
+[inc 5, (add 2 3), pi]   # expected: [6,5,3]

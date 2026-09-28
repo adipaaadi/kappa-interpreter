@@ -1,0 +1,39 @@
+# Kappa Language - Working Features Demo
+
+# === BASIC EXPRESSIONS ===
+42
+
+1 + 2 * 3
+
+5 == 5
+
+true
+
+false
+
+# === VARIABLES ===
+let x = 10
+
+x
+
+# === FUNCTIONS ===
+let increment = fn x: Int -> x + 1
+
+increment 5
+
+# === CONDITIONALS ===
+if true then 100 else 200
+
+# === LISTS ===
+[1, 2, 3, 4, 5]
+
+# === PATTERN MATCHING ===
+match [10, 20, 30] {
+  [] -> 0
+  [h | t] -> h
+}
+
+# === RECURSION: Factorial ===
+(fix (fn self: Int -> Int -> fn n: Int -> 
+  if n == 0 then 1 else n * (self (n - 1))
+)) 5

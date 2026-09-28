@@ -1,0 +1,9 @@
+# EXERCISE 1 — List sum
+# Task: write a function `sum : [Int] -> Int` that sums list elements.
+# Example: sum [1,2,3]  # => 6
+#
+# Failing example: sum true  # should be a type error
+
+# Your implementation below (replace this placeholder)
+# let sum = ...
+# sum [1,2,3]

@@ -1,0 +1,7 @@
+# SOLUTION 2 — Sum of squares (uses anonymous fix application to avoid top-level let recursion quirk)
+(fix (fn self: ([Int] -> Int) -> fn xs: [Int] -> 
+  match xs {
+    [] -> 0
+    [h | t] -> (h * h) + (self t)
+  }
+)) [1,2,3]  # expected: 14

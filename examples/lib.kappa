@@ -1,0 +1,5 @@
+# examples/lib.kappa
+# small library file to be imported by ex5_main.kappa
+let pi = 3   # small-int approximation
+let inc = fn x: Int -> x + 1
+let add = fn x: Int -> fn y: Int -> x + y

@@ -1,0 +1,16 @@
+# EXERCISE 5 — Import & module usage
+# Task: import "examples/lib.kappa" and use its declarations:
+#  - compute inc 5
+#  - compute add 2 3
+#  - use pi
+#
+# Write a short program that imports and uses lib.kappa bindings.
+#
+# Hint: your interpreter supports syntax like:
+#   import "examples/lib.kappa"
+#
+# Put your solution below (replace placeholder):
+# import "examples/lib.kappa"
+# inc 5
+# add 2 3
+# pi

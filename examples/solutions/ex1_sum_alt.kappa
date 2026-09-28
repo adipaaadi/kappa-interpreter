@@ -1,0 +1,7 @@
+# SOLUTION 1 ALT — anonymous fix application
+(fix (fn self: ([Int] -> Int) -> fn xs: [Int] -> 
+  match xs {
+    [] -> 0
+    [h | t] -> h + (self t)
+  }
+)) [1,2,3]

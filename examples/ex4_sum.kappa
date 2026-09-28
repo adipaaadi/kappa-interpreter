@@ -1,0 +1,13 @@
+# EXERCISE 4 — Sum type (inl/inr) and pattern match
+# Task:
+#  - Construct sum values using `inl` and `inr`.
+#  - Use `match` to branch on them.
+# Example goals:
+#  - inl 10  -> 11
+#  - inr true -> 1
+#
+# Failing example: trying to match an Int directly as if it were inl/inr should raise a type error.
+
+# Your code here
+# let s = inl 10
+# match s { inl x -> x + 1 inr y -> if y then 1 else 0 }

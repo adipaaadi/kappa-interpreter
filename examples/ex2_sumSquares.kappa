@@ -1,0 +1,9 @@
+# EXERCISE 2 — Sum of squares
+# Task: write a function `sumSquares : [Int] -> Int` that returns the sum of squares of list elements.
+# Example: sumSquares [1,2,3]  # => 1*1 + 2*2 + 3*3 = 14
+#
+# Failing example: sumSquares true  # should be a type error
+
+# Your implementation below (replace this placeholder)
+# let sumSquares = ...
+# sumSquares [1,2,3]
